@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .product {
+            width: 30%;
+            height: auto;
+            margin: 20px 0;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .product h3 {
+            margin-top: 20px;
+        }
+
+        .product p {
+            margin: 10px 20px;
+            text-align: justify;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+
+        .product .price {
+            margin-top: 20px;
+            color: gray;
+        }
+
+        .product .price .actual-price {
+            text-decoration: line-through;
+        }
+
+        .product .price .sale-price {
+            color: green;
+            font-weight: bold;
+        }
+
+        .read-more {
+            text-align: right;
+            margin-right: 20px;
+            display: none;
+        }
+
+        @media (max-width: 992px) {
+            .product {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div
+        style="background-image: url(banner.jpg); width: 100%; height: 300px; background-size: cover; background-position: center;">
+        <div style="text-align: center; color: white; padding: 50px;">
+
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="jordon.jpg" alt="product1">
+            <h3>Air Jordan 1 Retro High OG</h3>
+            <p>
+                3 + 1 = a whole new icon. Celebrating 35 years of the Air Jordan 3, these kicks combine the classic AJ1
+                silhouette with an original AJ3 colourway. Crafted to the '85 specs, it's got premium leather, a
+                high-top collar and the woven tongue label you know and love. Bold splashes of True Blue throughout
+                (check out the Wings logo) stand out against layers of white and Cement Grey. And the finishing touch?
+                Nike Air cushioning underfoot lets you keep pace, so nothing holds you back from stepping out in style.
+            </p>
+            <div class="price">
+                <span class="actual-price">$100</span>
+                -
+                <span class="sale-price">$75</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="product">
+            <img src="mountainbike.png" alt="product1">
+            <h3>SALAMANDER</h3>
+            <p>
+                If traversing up slopes and cutting through trails is your life's purpose, then do it right with the
+                Octane Salamander. Its trail-optimized geometry ensures you can tackle any trail with ease, and the
+                powerful disc brakes offer a stopping power that's just intense. Wherever you want to go, the Salamander
+                just can!
+            </p>
+            <div class="price">
+                <span class="actual-price">$150</span>
+                -
+                <span class="sale-price">$125</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="product">
+            <img src="speakernew.jpg" alt="product1">
+            <h3>Stone 1600</h3>
+            <p>
+                Add life to all your parties with the ultimate jukebox - Stone 1200F bluetooth speaker. It’s powered by
+                14W boAt Signature Sound with Passive Bass Radiator that is built to add spark to all your plans. The
+                RGB LED lights are perfect to set the perfect vibe for a casual chilling session with your best buds.
+                You can take it along everywhere you go with its 360-degree ergonomic design, shoulder strap and IPX7
+                Water & Splash Resistance that protects it even when outdoors. Need a sound setup for a bigger party?
+                Add a second speaker with its TWS feature and blast your music with 2x power. It also comes with an
+                enormous playback time of 9 hours. Experience your music like never before with Stone 1200F.
+            </p>
+            <div class="price">
+                <span class="actual-price">$13</span>
+                -
+                <span class="sale-price">$10</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="product">
+            <img src="watch.jpg" alt="product1">
+            <h3>Wave Diamond</h3>
+            <p>
+                Introducing Wave Select, the watch of all watches. Now pursue your fitness journey in style with its
+                beautiful 4.29 cm(1.69”) colour HD display and 20+ active sport modes. Maintain a healthy life with its
+                heart-rate & SpO2 monitor and multiple sedentary & hydration alerts. Never miss a beat with a
+                long-lasting 10 day battery life that keeps you connected to your world, always.
+            </p>
+            <div class="price">
+                <span class="actual-price">$16</span>
+                -
+                <span class="sale-price">$15</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="product">
+            <img src="rockerz.jpg" alt="product1">
+            <h3>Rockerz 231</h3>
+            <p>
+                When the best of boAt meets Asia’s biggest music festival, you are bound to have a blast! Meet the
+                over-ear wireless headset, boAtxSunburn Rockerz 558. The headphones come equipped with the latest
+                Bluetooth v5.0 for instant wireless connectivity. Its powerful 500mAh battery provides playtime of up to
+                20 hours for you to groove nonstop! The 50mm dynamic drivers bring alive your favourite tunes through
+                its thumping bass. Hear every beat as it drops with the bombastic Rockerz 231.
+            </p>
+            <div class="price">
+                <span class="actual-price">$100</span>
+                -
+                <span class="sale-price">$75</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="product">
+            <img src="pc.jpg" alt="product1">
+            <h3>Omen Gaming</h3>
+            <p>
+                The OMEN Laptop provides a desktop-level power with an AMD processor and a modern graphics card, both
+                regulated by OMEN Tempest Cooling..
+            </p>
+            <div class="price">
+                <span class="actual-price">$100</span>
+                -
+                <span class="sale-price">$75</span>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</body>
+
+</html>
